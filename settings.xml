@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <profiles>
+        <profile>
+            <id>compiler-settings</id>
+            <properties>
+                <maven.compiler.source>23</maven.compiler.source>
+                <maven.compiler.target>23</maven.compiler.target>
+                <maven.compiler.release>23</maven.compiler.release>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>compiler-settings</activeProfile>
+    </activeProfiles>
+</settings>
